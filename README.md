@@ -76,13 +76,21 @@ Each token is represented as a JSON object:
 
 Supported Types
 1.identifier
+
 2.keyword
+
 3.number
+
 4.string
+
 5.punctuation
+
 6.operator
+
 7.ellipsis (...)
+
 8.unknown (for invalid/unsupported characters)
+
 9.eof (end-of-file marker)
 
 ## 🧠 Future Work
