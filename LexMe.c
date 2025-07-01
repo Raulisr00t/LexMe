@@ -249,6 +249,7 @@ int main(int argc, char *argv[]) {
         first = false;
 
         printf("  {\n");
+        
         printf("    \"type\": \"%s\",\n", token_type_to_name(token.type));
         printf("    \"value\": \"%s\",\n", token.value);
         printf("    \"start\": %u,\n", token.start);
@@ -256,6 +257,7 @@ int main(int argc, char *argv[]) {
         printf("    \"line\": %u\n", token.line);
         
         printf("  }");
+        
     } while (1);
     
     printf("\n]\n");
